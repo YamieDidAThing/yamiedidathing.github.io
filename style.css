@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'MinecraftTextRegular';
+    src: url(assets/font/minecraft_text/MinecraftRegular-Bmg3.otf);
+}
+
+@font-face {
+    font-family: 'MinecraftTextBold';
+    src: url(assets/font/minecraft_text/MinecraftBold-nMK1.otf);
+}
+
+@font-face {
+    font-family: 'MinecraftTextBoldItalic';
+    src: url(assets/font/minecraft_text/MinecraftBoldItalic-1y1e.otf);
+}
+
+@font-face {
+    font-family: 'MinecraftTextItalic';
+    src: url(assets/font/minecraft_text/MinecraftItalic-R8Mo.otf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page-background {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: 100px;
+    image-rendering: pixelated;
+    background-image: url(assets/image/homepage_background.png);
+}
+
+.header {
+    display: block;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(#000000, transparent);
+    z-index: 100;
+}
+
+#home-button {
+    display: block;
+    position: fixed;
+    height: 35px;
+    width: 140px;
+    top: 35px;
+    left: 100px;
+    border: 0;
+    font-family: 'MinecraftTextRegular';
+    color: #ffffff;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#home-button:hover {
+    font-family: 'MinecraftTextItalic';
+}
+
+#download-button {
+    display: block;
+    position: fixed;
+    height: 35px;
+    width: 140px;
+    top: 35px;
+    left: 250px;
+    border: 0;
+    font-family: 'MinecraftTextRegular';
+    color: #ffffff;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#download-button:hover {
+    font-family: 'MinecraftTextItalic';
+}
+
+#wiki-button {
+    display: block;
+    position: fixed;
+    height: 35px;
+    width: 80px;
+    top: 35px;
+    left: 400px;
+    border: 0;
+    font-family: 'MinecraftTextRegular';
+    color: #ffffff;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#wiki-button:hover {
+    font-family: 'MinecraftTextItalic';
+}
+
+#generators-button {
+    display: block;
+    position: fixed;
+    height: 35px;
+    width: 170px;
+    top: 35px;
+    left: 490px;
+    border: 0;
+    font-family: 'MinecraftTextRegular';
+    color: #ffffff;
+    font-size: 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#generators-button:hover {
+    font-family: 'MinecraftTextItalic';
+}
+
+#page-icon {
+    display: block;
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    top: 5px;
+    left: 5px;
+    background-image: url(assets/image/create_vanilla.png);
+    background-size: contain;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
